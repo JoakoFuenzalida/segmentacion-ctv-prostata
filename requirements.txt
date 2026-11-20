@@ -1,0 +1,10 @@
+# Instalar primero PyTorch con soporte CUDA desde https://pytorch.org (en el proyecto: torch 2.11 + cu128)
+nnunetv2==2.8.1
+numpy
+scipy
+SimpleITK
+nibabel
+pydicom
+matplotlib
+pynrrd        # solo para exportar a NRRD en aumentar_datos.py / ver_hu.py (opcional)
+python-docx   # solo para los informes en .docx (opcional)
